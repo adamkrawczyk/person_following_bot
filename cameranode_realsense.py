@@ -6,7 +6,7 @@ import sys, time
 import numpy as np
 import rospy
 from sensor_msgs.msg import CompressedImage
-import pyrealsense2 as rs
+import pyrealsense2.pyrealsense2 as rs
 VERBOSE=False
 try:
    sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')

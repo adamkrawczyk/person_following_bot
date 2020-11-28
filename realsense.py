@@ -1,5 +1,5 @@
 from __future__ import division
-import pyrealsense2 as rs
+import pyrealsense2.pyrealsense2 as rs
 
 import time
 import torch
